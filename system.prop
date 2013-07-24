@@ -90,12 +90,6 @@ debug.composition.type=mdp
 windowsmgr.max_events_per_sec=150
 debug.performance.tuning=1
 
-# CM parts hack
-persist.sys.use_16bpp_alpha=1
-persist.sys.jit-mode=int:jit
-persist.sys.jit-mode=1
-persist.sys.scrollingcache=3
-
 #Tweaks
 ro.setupwizard.enable_bypass=1
 persist.sys.purgeable_assets=1
