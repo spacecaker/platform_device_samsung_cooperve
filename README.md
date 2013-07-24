@@ -1,4 +1,7 @@
-android_device_samsung_cooperve_aosp
-====================================
+Device Configuration AOSP GB For Galaxy Ace i
+=============================================
 
-Device configuration for AOSP GingerBread Cooperve
+Device tree for Samsung Galaxy Ace i S5830i, s5830M, s5830C - CM7
+
+Maintainer: Bieltv.3 & Spacecaker
+
