@@ -14,6 +14,9 @@ dalvik.vm.lockprof.threshold=500
 ro.kernel.android.checkjni=1
 dev.sfbootcomplete=0
 
+# Screen Rotation
+persist.sys.rotationanimation=false
+
 # Bluetooth
 net.bt.name=Android
 
@@ -77,8 +80,15 @@ alsa.mixer.playback.bt.a2dp=BTHeadset
 alsa.mixer.capture.bt.a2dp=BTHeadset
 
 # Performance Tweaks
+ro.compcache.default=0
+persist.sys.use_dithering=0
+view.fading_edge_length=8v
+view.minimum_fling_velocity=25
+view.scroll_friction=0.008
+view.touch_slop=15 X
 debug.composition.type=mdp
 windowsmgr.max_events_per_sec=150
+debug.performance.tuning=1
 
 #Tweaks
 ro.setupwizard.enable_bypass=1
