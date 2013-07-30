@@ -1,4 +1,4 @@
-ifeq ($(TARGET_BOOTLOADER_BOARD_NAME),gio)
+ifeq ($(TARGET_BOOTLOADER_BOARD_NAME),cooperve)
 LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
