@@ -53,6 +53,14 @@ PRODUCT_COPY_FILES += \
     device/samsung/cooperve/prebuilt/root/j4fs.ko:root/j4fs.ko \
     device/samsung/cooperve/prebuilt/root/sec_param.ko:root/sec_param.ko
 
+# Sound
+PRODUCT_COPY_FILES += \
+    device/samsung/cooperve/prebuilt/lib/libasound.so:system/lib/libasound.so \
+    device/samsung/cooperve/prebuilt/lib/libaudio.so:system/lib/libaudio.so \
+    device/samsung/cooperve/prebuilt/lib/libaudioeffect_jni.so:system/lib/libaudioeffect_jni.so \
+    device/samsung/cooperve/prebuilt/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
+    device/samsung/cooperve/prebuilt/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so
+
 # Board-specific init
 PRODUCT_COPY_FILES += \
     device/samsung/cooperve/ramdisk/init.rc:root/init.rc \
