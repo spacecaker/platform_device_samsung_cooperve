@@ -19,6 +19,11 @@ $(call inherit-product, vendor/samsung/cooperve/cooperve-vendor.mk)
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
+# Using MMB vendor (Superuser, hosts file and APNS)
+$(call inherit-product, vendor/mmb/vendor_blobs.mk)
+
+# Including GApps
+$(call inherit-product, vendor/google/tiny.mk)
 # This is where we'd set a backup provider if we had one
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full.mk)
 
@@ -28,7 +33,7 @@ PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := cooperve
 PRODUCT_MODEL := GT-S5830i
 PRODUCT_MANUFACTURER := Samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=GT-S5830i BUILD_ID=GRI40 BUILD_DISPLAY_ID=GWK74 BUILD_FINGERPRINT=samsung/GT-S5830i/GT-S5830i:2.3.6/GINGERBREAD/XWKTN:user/release-keys PRIVATE_BUILD_DESC="GT-S5830i-user 2.3.6 GINGERBREAD XWKTN release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=GT-S5830i BUILD_ID=eng.spacecaker BUILD_DISPLAY_ID=eng.spacecaker BUILD_FINGERPRINT=samsung/GT-S5830i/GT-S5830i:2.3.6/GINGERBREAD/XWKTN:user/release-keys PRIVATE_BUILD_DESC="GT-S5830i-user 2.3.6 GINGERBREAD XWKTN release-keys"
 
 # Add device package overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/cooperve/overlay
