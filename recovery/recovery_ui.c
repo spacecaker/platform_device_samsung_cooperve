@@ -45,11 +45,11 @@ int maxY=0; //Set to 0 for debugging
 the values of following two variables are dependent on specifc device resolution
 and can be obtained using the outputs of the gr_fb functions
 */
-int resX=240; //Value obtained from function 'gr_fb_width()'
-int resY=320; //Value obtained from function 'gr_fb_height()'
+int resX=320; //Value obtained from function 'gr_fb_width()'
+int resY=480; //Value obtained from function 'gr_fb_height()'
 
 //char* MENU_HEADERS[] = { NULL };
-char* MENU_HEADERS[] = { "Galaxy Mini [Lilg]",
+char* MENU_HEADERS[] = { "Galaxy Ace i [cooperve]",
                          NULL };
 
 char* MENU_ITEMS[] = { "reboot system now",
